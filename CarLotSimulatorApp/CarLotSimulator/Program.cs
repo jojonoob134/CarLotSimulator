@@ -25,6 +25,8 @@ namespace CarLotSimulator
             car1.IsDriveable = false;
             car1.MakeEngineNoise(car1);
 
+            
+
             Car car2 = new Car { Year = 2002, Model = "DS50", Make = "BOMBARDIER", EngineNoise = "sizzle", HonkNoise = "hoNk honK", IsDriveable = false };
             car1.MakeEngineNoise(car2);
             Car car3 = new Car()
@@ -39,7 +41,7 @@ namespace CarLotSimulator
 
             car1.MakeEngineNoise(car3);
 
-
+            Console.WriteLine($"There are {CarLot.NumOfCars} in the car lot");
 
 
         }
