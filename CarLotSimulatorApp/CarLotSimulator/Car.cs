@@ -35,7 +35,7 @@ namespace CarLotSimulator
         }
         public void MakeHonkNoise(Car cars)
         {
-            Console.WriteLine($"The {cars.Make} makes a {cars.EngineNoise} noise in the homk's");
+            Console.WriteLine($"The {cars.Make} makes a {cars.HonkNoise} noise in the homk's");
         }
     }
 }

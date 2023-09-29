@@ -40,6 +40,7 @@ namespace CarLotSimulator
             };
 
             car1.MakeEngineNoise(car3);
+            car1.MakeHonkNoise(car3);
 
             Console.WriteLine($"There are {CarLot.NumOfCars} in the car lot");
 
